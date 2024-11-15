@@ -1,9 +1,9 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
+    "name":"Cali Bands",
     "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"Cali Bands is a nonprofit for marching bands in the Inland empire and/or Los Angeles County. We are an organization that offers membership to high schools or school districts. This membership will include access to music librabries, drill librabries, a roster of staff to choose from (drill, music, guard, dril lwriters, and music writers) as well as clinics for leadership and college workshops (with an emphasis on music related careers). ",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
