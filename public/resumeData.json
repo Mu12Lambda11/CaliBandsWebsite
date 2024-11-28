@@ -181,5 +181,29 @@
         "url":"https://www.canadianwanderlust.com"
       }
     ]
+  },
+  "Profiles":{
+    "bios":[
+      {
+        "name":"John Doe",
+        "image":"01.jpg",
+        "text":"This is a bio"
+      },
+      {
+        "name":"John Doe",
+        "image":"01.jpg",
+        "text":"This is a bio"
+      },
+      {
+        "name":"John Doe",
+        "image":"01.jpg",
+        "text":"This is a bio"
+      },
+      {
+        "name":"John Doe",
+        "image":"01.jpg",
+        "text":"This is a bio"
+      }
+    ]
   }
 }

@@ -37,8 +37,8 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
+              <a className="smoothscroll" href="#profiles">
+                Profiles
               </a>
             </li>
           </ul>
