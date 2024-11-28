@@ -1,13 +1,18 @@
-import React, { Component } from "react";
+import React, {useState, Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import Popup from "reactjs-popup";
+import 'reactjs-popup/dist/index.css';
 
 class Header extends Component {
+  
   render() {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
     const visionstatement= this.props.data.visionstatement;
+    
+    
 
     return (
       <header id="home">
@@ -54,9 +59,27 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={'#portal'} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Member Portal
-                </a>
+                <Popup trigger={
+                  <a className="button btn project-btn">
+                    <i className="fa fa-book"></i>Member Portal
+                  </a>
+                }
+                modal
+                >
+                  <div className="modal">
+                    <div className="content">
+                      <input 
+                        type={"password"}
+                        placeholder="Password"
+                        className="input"
+                      />
+                      
+                    </div>
+                    <button>
+                      Sign in
+                    </button>
+                  </div>
+                </Popup>
               </ul>
             </Fade>
           </div>
