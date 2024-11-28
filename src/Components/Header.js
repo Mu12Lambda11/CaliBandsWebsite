@@ -6,14 +6,12 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
-    const description = this.props.data.description;
+    const visionstatement= this.props.data.visionstatement;
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg color="#F08080" type="circle" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -50,13 +48,14 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{'555-555-5555'}.</h3>
+              <h2>Vision Statement</h2>
+                <h3>{visionstatement}.</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={'Team Profiles'} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Profiles
+                <a href={'#portal'} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Member Portal
                 </a>
               </ul>
             </Fade>
