@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
@@ -46,7 +47,7 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        <Profiles data={this.state.resumeData.profiles} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />        
       </div>
