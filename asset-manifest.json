@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CaliBandsWebsite/static/css/main.1bb58f99.css",
+    "main.js": "/CaliBandsWebsite/static/js/main.068a1b0c.js",
+    "static/js/488.b16ca0c1.chunk.js": "/CaliBandsWebsite/static/js/488.b16ca0c1.chunk.js",
+    "index.html": "/CaliBandsWebsite/index.html",
+    "main.1bb58f99.css.map": "/CaliBandsWebsite/static/css/main.1bb58f99.css.map",
+    "main.068a1b0c.js.map": "/CaliBandsWebsite/static/js/main.068a1b0c.js.map",
+    "488.b16ca0c1.chunk.js.map": "/CaliBandsWebsite/static/js/488.b16ca0c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bb58f99.css",
+    "static/js/main.068a1b0c.js"
+  ]
+}
