@@ -38,6 +38,7 @@ header {
    overflow: hidden;
 }
 
+
 /* vertically center banner section */
 header:before {
    content: '';
@@ -62,7 +63,7 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 20px/1.9em 'librebaskerville-regular', serif;
    color: #ddd;
    margin: 0 auto;
    width: 70%;
@@ -425,6 +426,7 @@ ul#nav li.current a { color: #fe6928; }
    color: #95A3A3;
 }
 
+
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
@@ -556,6 +558,14 @@ ul#nav li.current a { color: #fe6928; }
 .popup-modal a:hover {	color: #00CCCC; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
+/*Profiles Section*/
+
+#profiles .profile-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+}
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */

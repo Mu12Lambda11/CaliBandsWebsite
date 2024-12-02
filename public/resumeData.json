@@ -9,6 +9,8 @@
     "phone": "555-555-5555",
     "github":"https://github.com/nordicgiant2/react-nice-resume",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "visionstatement": "A future where every young musician in the Inland Empire experiences the power of marching arts, empowered by access to professional resources, innovative education, and strong community support in their high school marching bands.",
+    "missionstatement": "Cali Bands fosters a thriving and inclusive marching band culture by providing essential music education resources, drill writing tools, and administrative support. Through collaborative workshops, a comprehensive music library, and connections to industry professionals, we empower band directors, instructors, and students across the Inland Empire to achieve excellence in the performing arts and higher education.",
     "address":{
       "street":"(Your Street)",
       "city":"(Your City)",
@@ -182,27 +184,25 @@
       }
     ]
   },
-  "Profiles":{
+  "profiles":{
     "bios":[
       {
-        "name":"John Doe",
-        "image":"01.jpg",
-        "text":"This is a bio"
+        "name":"Jacobo Herrera",
+        "title":"Executive Director",
+        "image":"Jacobo Herrera.jpg",
+        "text":"Jacobo Herrera graduated from the University of Southern California (USC) with a bachelor’s degree in Music Industry. He has interned for the International Association of Venue Managers’ certification program as an operations assistant and at the Honda Center in Anaheim, CA as an Arena Management Intern, assisting the marketing, programming, and special events departments.  Jacobo will be continuing his education by pursuing a master’s in Arts Leadership from the Thornton School of Music and will be graduating May of 2025."
       },
       {
-        "name":"John Doe",
-        "image":"01.jpg",
-        "text":"This is a bio"
+        "name":"Sam Perez III",
+        "title":"Board Member",
+        "image":"Sam Perez.png",
+        "text":"Samuel Pérez III is in his second year as a graduate student at USC and is serving as the drum major in his fourth year with the Spirit of Troy. After earning a Bachelor’s of Science in Mechanical Engineering from CSULB, he is currently pursuing a Masters in Music Teaching and Learning from the Thornton School of Music in hopes to further his skills as a music educator. Sam was previously the Assistant Director of Bands at Long Beach Polytechnic High School teaching the Poly Marching Unit and the Concert Band, as well as overseeing the program’s Winter Color Guard. His marching program was a 2x CSBC Finalist and his concert ensembles have earned Superior ratings at SCSBOA Band Festivals. Sam is is also currently a brass instructor for Pacific Crest Drum and Bugle Corps."
       },
       {
-        "name":"John Doe",
-        "image":"01.jpg",
-        "text":"This is a bio"
-      },
-      {
-        "name":"John Doe",
-        "image":"01.jpg",
-        "text":"This is a bio"
+        "name":"Dr.Jacob Vogel",
+        "title":"Board Member",
+        "image":"Dr. Jacob Vogel.png",
+        "text":"Dr. Jacob Vogel was named as Director of the USC Trojan Marching Band at the start of 2021, the first to be new to the position in over 50 years. This appointment followed a 12-year tenure as a teaching assistant, assistant director, associate director, and arranger with the program. Dr. Vogel also serves as an Associate Professor of Practice in Winds and Percussion with the Thornton School of Music, and as a member of the Music Teaching and Learning Faculty. In his former position as the Trojan Marching Band’s Associate Director and Arranger, Dr. Vogel divided his time between creating contemporary arrangements and contributing to the members’ continuing music education. Dr. Vogel’s arrangements have been electrifying the Coliseum for over a decade, and his student-centered approach to music teaching and learning has had a tremendous effect on the program. Dr. Vogel’s artistic vision has been instrumental to the success of his collaborative efforts with the Thornton School of Music’s Popular Music Program, the Kaufman School of Dance, X Ambassador’s Sam Harris, Fitz and the Tantrums, composers Ramin Djawadi and Alan Silvestri, as well as Angelina Jolie and Mark Hamill. Most recently, the Trojan Marching Band performed alongside Gwen Stefani and the Los Angeles Philharmonic, under the direction of Maestro Gustavo Dudamel. "
       }
     ]
   }

@@ -1,19 +1,22 @@
-import React, { Component } from "react";
+import React, {useState, Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import Popup from "reactjs-popup";
+import 'reactjs-popup/dist/index.css';
 
 class Header extends Component {
+  
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
-    const description = this.props.data.description;
+    const visionstatement= this.props.data.visionstatement;
+    
+    
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg color="#F08080" type="circle" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -50,14 +53,33 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{'555-555-5555'}.</h3>
+              <h2>Vision Statement</h2>
+                <h3>{visionstatement}.</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={'Team Profiles'} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Profiles
-                </a>
+                <Popup trigger={
+                  <a className="button btn project-btn">
+                    <i className="fa fa-book"></i>Member Portal
+                  </a>
+                }
+                modal
+                >
+                  <div className="modal">
+                    <div className="content">
+                      <input 
+                        type={"password"}
+                        placeholder="Password"
+                        className="input"
+                      />
+                      
+                    </div>
+                    <button>
+                      Sign in
+                    </button>
+                  </div>
+                </Popup>
               </ul>
             </Fade>
           </div>
