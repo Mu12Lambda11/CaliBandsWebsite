@@ -6,7 +6,10 @@ import "./App.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
-import Profiles from "./Components/Profiles"
+import Offer from "./Components/Offer";
+import Contact from "./Components/Contact";
+import Profiles from "./Components/Profiles";
+
 
 class App extends Component {
   constructor(props) {
@@ -44,7 +47,9 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
+        <Offer data={this.state.resumeData.main}/>
         <Profiles data={this.state.resumeData.profiles} />
+        <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main} />        
       </div>
     );

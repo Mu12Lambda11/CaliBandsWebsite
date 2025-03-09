@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 
+//Mission Statement
 class About extends Component {
   render() {
     if (!this.props.data) return null;
